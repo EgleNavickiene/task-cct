@@ -1,0 +1,56 @@
+:host {
+    $main-color: #00ADAA;
+    $Font-manrope: 'Manrope', sans-serif;
+
+    ::ng-deep{
+        .card  {
+          border: none;
+        }
+
+        .panel-heading {
+            background-color: white;
+            
+            }
+
+        #acc-head-font   {
+            font-family: $Font-manrope;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            color: black;
+            }
+
+        #acc-head-font .btn-link  {
+            text-decoration: none;
+        }
+
+            .num-card{
+                display: inline-block;            
+                background: $main-color;
+                position: relative;
+    
+                .num-card-number{
+                    color: white;
+                    font-family: $Font-manrope;
+                    font-size: 36px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    margin-top: 5px;
+                    }
+            }     
+            .num-card{
+                display: inline-block;            
+                background: $main-color;
+                position: relative;
+        
+                    
+                }               
+        
+        .roboto-font {
+            font-family: roboto;
+            font-weight: 400;
+            font-size: 18px;
+            }
+    }
+    
+}
